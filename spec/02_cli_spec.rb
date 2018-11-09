@@ -39,5 +39,5 @@ describe './bin/greet executing a CLI Application' do
 end
 
 puts "Hi! I'm HAL, what's your name?"
- name = gets.strip
+ name = gets.chomp.strip
 greeting(name)
